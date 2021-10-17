@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto !important;
+}
+header{
+    padding: 8px 0;
+    background: #f5f5f5;
+box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.48);
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.header-wrapper .header-logo{
+    width: 20%;
+}
+.header-wrapper .header-logo .img-box{
+width: 60%;
+}
+.header-wrapper .header-logo .img-box img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.header-form{
+    width: 60%;
+    position: relative;
+}
+.header-search{
+    width: 47px;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    border: 2px;
+    position: absolute;
+    background-color: royalblue;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+.header-wrapper .header-sign{
+    display: flex;
+    justify-content: space-between;
+    width: 20%
+}
+.header-form form input{
+width: 100%;
+padding: 12px 8px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 14px;
+font-weight: 400;
+}
+.header-form form input{
+    border-bottom: 2px solid red;
+}
+.header-form form input:focus{
+    outline: 1px solid rgb(134, 59, 231);
+    border: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.header-sign{
+    display: flex;
+
+}
+.header-sign .icon{
+    width: 50%;
+    text-align: right;
+}
+.header-sign .btn-box{
+    align-self: center;
+    text-align: left;
+    position: relative;
+}
+.header-sign a i{
+font-size: 40px;
+color: black;
+}
+.header-sign .btn-box a{
+    padding: 10px 20px;
+    color: #000;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .5s;
+}
+.header-sign .btn-box a:hover{
+    background: green;
+    border: 1px solid transparent;
+    color: white;
+}
+.header-sign .btn-box .user-box{
+    width: 250px;
+    height: 400px;
+    background: grey;
+    box-shadow: 0px -2px 20px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    transition: .5s;
+    visibility: hidden;
+}
+.header-sign .btn-box:hover .user-box{
+    visibility: visible;
+}
+.icon-box{
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.fb-icon{
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgb(62, 62, 219);
+    border: 1px solid rgb(62, 62, 219);
+    display: flex;
+    justify-content:center;
+}
+.fb-icon p{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform:uppercase;
+    color: white;
+}
+.google-icon{
+    width: 45%;
+    height: 50%;
+    border: 2px solid rgb(62, 62, 219);
+    background-color: blue;
+    display: flex;
+    border-radius: 5px;
+}
+.menubar{
+    width: 100%;
+    height: auto;
+   
+    justify-content: space-between;
+    display: flex;
+   
+   
+    border-bottom: 1px solid blueviolet;
+    
+   
+}
+ .menubar .menu1{
+   
+    width: 12%;
+    height: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+ 
+}
+.menubar .menu1:hover{
+    border: 2px solid blueviolet;
+    
+    border-bottom: none;
+}
+.menu2{
+    border: 2px solid gainsboro;
+   
+    
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+.menu2:hover{
+    border: 2px solid blueviolet;
+    
+    border-bottom: none;
+
+}
+.last-m{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto !important;
+    justify-content: space-between;
+    display: flex;
+   
+    margin-top: 100px;
+   
+    
+}
+.last-m .child{
+    
+    width: 12%;
+    height: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+   
+ 
+}
+.child-1{
+    
+  
+    
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+.main-bod{
+    background-color:gainsboro;
+    width: 100%;
+    height: auto;
+   
+    
+}
+.sl{
+    width: 1140px;
+    margin: 0 auto !important;
+  
+   height: auto;
+
+}
+.small-banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin:  0 auto !important;
+    height: auto;
+ 
+
+
+}
+.mn{
+    display: block;
+    width: 370px;
+}
+.m{
+    display: block;
+    width: 370px;
+    padding-left: 10px;
+}
+.sold-box{
+    width: 1140px;
+    
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    box-shadow: 0px 1px 40px 0px #968787e3;
+
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
